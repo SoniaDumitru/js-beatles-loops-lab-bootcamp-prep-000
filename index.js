@@ -18,3 +18,16 @@ function johnLennonFacts(arrayOfFacts) {
   }
   return newArray;
 }
+
+function iLoveTheBeatles(number) {
+  var array = [];
+  var i = 0;
+  function incrementNumber() {
+    i++;
+    return i;
+  }
+  do {
+    array.push('I love the Beatles!') 
+  }
+  while (incrementNumber() < 15);
+}
